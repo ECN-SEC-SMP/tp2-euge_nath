@@ -14,3 +14,12 @@ cmake --build build/
 ```bash
 ./build/CPP_TP2_EUGE_NATH
 ```
+
+## Class Diagram
+
+Le diagramme de classes est fait avec mermaid.
+> https://mermaid.js.org/syntax/classDiagram.html
+
+```mermaid
+
+```
