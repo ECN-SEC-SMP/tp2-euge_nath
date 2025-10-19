@@ -19,6 +19,6 @@ void VoitureAmphibie::arreter() {
 }
 
 void VoitureAmphibie::afficherCaracteristiques() {
-    //this -> vitesse_();
-    //this -> vitesse_();
+    Voiture:: vitesse_;
+    Bateau:: vitesse_;
 }
