@@ -88,6 +88,45 @@ int main(int argc, char const *argv[])
         std::cerr << "[Exception] " << e.what() << std::endl;
     }
 
+    std::cout << "=== Test de la classe Voiture ===" << std::endl;
+
+    try {
+        // Création d'une voiture (vitesse max 180 km/h, 5 places, 1 occupant)
+        Voiture v(180, 5, 1);
+
+        v.demarrer();
+        v.accelerer(50);
+        std::cout << "Vitesse actuelle : " << 50 << " km/h" << std::endl;
+
+        v.arreter();
+        std::cout << "État : " << v.getEtat() << std::endl;
+    }
+    catch (const std::exception &e) {
+        std::cerr << "[Exception] " << e.what() << std::endl;
+    }
+
+    std::cout << "=== Fin du test Voiture ===" << std::endl;
+
+    std::cout << "=== Test de la classe Bateau ===" << std::endl;
+
+    try {
+        // Création d’un bateau (vitesse max 80 km/h, 8 places, 2 occupants)
+        Bateau b(80, 8, 2);
+
+        b.demarrer();
+        b.accelerer(30);
+        std::cout << "Bateau en mouvement à 30 km/h" << std::endl;
+
+        b.arreter();
+        std::cout << "État : " << b.getEtat() << std::endl;
+    }
+    catch (const std::exception &e) {
+        std::cerr << "[Exception] " << e.what() << std::endl;
+    }
+
+    std::cout << "=== Fin du test Bateau ===" << std::endl;
+
+
     return 0;
 }
 
@@ -102,8 +141,7 @@ uint32_t util::getRandInt(uint32_t min, uint32_t max)
 
 void setVehiculePanne(Vehicule v)
 {
-    double rNum = std::rand() / (double)RAND_MAX; // Get random number between 0 and 1
-    // std::cout << "Rand = " << rNum << "\n";
+    double rNum = std::rand() / (double)RAND_MAX; // random number entre 0 et 1
 
     v.mettreEnPanne(rNum);
 }
@@ -111,6 +149,7 @@ void setVehiculePanne(Vehicule v)
 // --------------------------------------------------
 // 2 - Voiture et Bateau
 // --------------------------------------------------
+
 
 // --------------------------------------------------
 // 3 - Voiture Amphibie

@@ -6,7 +6,7 @@
 
 using namespace std;
 
-class Bateau : private Vehicule
+class Bateau : public Vehicule
 {
 protected:
     
