@@ -1,7 +1,3 @@
-#ifndef VoitureAmphibie_hpp
-#define VoitureAmphibie_hpp
-
-
 #include <stdexcept>
 #include <iostream>
 
@@ -25,5 +21,3 @@ public:
     // Méthode supp pour afficher les deux vitesses max
     void afficherCaracteristiques();
 };
-
-#endif /* VoitureAmphibie_hpp */

@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-Bateau::Bateau(int vitesseMax=150, int nbPlaces=4, int occupants=0) : 
+Bateau::Bateau(int vitesseMax, int nbPlaces, int occupants) : 
     Vehicule(vitesseMax, nbPlaces, occupants)
 {
 

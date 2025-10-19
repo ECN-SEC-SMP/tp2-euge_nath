@@ -1,6 +1,3 @@
-#ifndef Bateau_hpp
-#define Bateau_hpp
-
 #include <stdexcept>
 #include <iostream>
 
@@ -26,5 +23,3 @@ public:
 
 // opérateur d'affichage
 ostream& operator<<(ostream& s,Bateau const& v);
-
-#endif /* Bateau_hpp */

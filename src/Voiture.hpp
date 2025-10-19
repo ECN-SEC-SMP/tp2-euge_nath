@@ -1,6 +1,3 @@
-#ifndef Voiture_hpp
-#define Voiture_hpp
-
 #include <stdexcept>
 #include <iostream>
 
@@ -26,5 +23,3 @@ public:
 
 // opérateur d'affichage
 ostream& operator<<(ostream& s,Voiture const& v);
-
-#endif /* Voiture_hpp */

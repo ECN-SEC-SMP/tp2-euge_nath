@@ -93,8 +93,7 @@ string Vehicule::getEtat() const{
         return std::string("Arret");
     }
     if(etat_ == MARCHE){
-        return std::string("Marche");
-    }
+        return std::string("Marche");    }
     if(etat_ == PANNE_LEGERE){
         return std::string("Panne Legere");
     }

@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-Voiture::Voiture(int vitesseMax=130, int nbPlaces=2, int occupants=0) : 
+Voiture::Voiture(int vitesseMax, int nbPlaces, int occupants) : 
     Vehicule(vitesseMax, nbPlaces, occupants)
 {
 
