@@ -19,6 +19,6 @@ void VoitureAmphibie::arreter() {
 }
 
 void VoitureAmphibie::afficherCaracteristiques() {
-    //std::cout << "Vitesse max voiture : " << Voiture::getVitesse() << " km/h" << std::endl;
-    //std::cout << "Vitesse max bateau  : " << Bateau::getVitesse() << " km/h" << std::endl;
+    //this -> vitesse_();
+    //this -> vitesse_();
 }
