@@ -1,4 +1,4 @@
-#include "Vehicule.h"
+#include "Vehicule.hpp"
 #include "StateException.hpp"
 #include <iostream>
 #include <string>
@@ -100,6 +100,8 @@ string Vehicule::getEtat() const{
     if(etat_ == PANNE_SEVERE){
         return std::string("Panne Severe");
     }
+    
+    return "Etat inconnu";
 }
 
 // Destructeur

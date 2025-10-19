@@ -1,6 +1,7 @@
-#ifndef Vehicule_hpp
-#define Vehicule_hpp
+//#ifndef Vehicule_hpp
+//#define Vehicule_hpp
 
+#pragma once
 #include <stdexcept>
 #include <iostream>
 
@@ -44,4 +45,4 @@ public:
 // opérateur d'affichage
 ostream& operator<<(ostream& s,Vehicule const& v);
 
-#endif /* Vehicule_hpp */
+//#endif /* Vehicule_hpp */

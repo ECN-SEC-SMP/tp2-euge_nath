@@ -1,7 +1,8 @@
+#pragma once
 #include <stdexcept>
 #include <iostream>
 
-#include "Vehicule.h"
+#include "Vehicule.hpp"
 
 using namespace std;
 
